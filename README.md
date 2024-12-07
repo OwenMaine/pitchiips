@@ -18,7 +18,7 @@ Python for responsive backend
 #Installation
 
 Clone this repository:
-git clone https://github.com/owenmaine/pitchtips-dashboard.git  
+git clone https://github.com/owenmaine/pitchtips.git  
 Navigate to the project directory:
 cd pitchtips  
 Open index.html in your browser to view the project.
