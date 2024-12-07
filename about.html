@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PitchTips - HTML Template</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/fontawesome.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.css">
+    <link rel="stylesheet" href="stylesheets/nice-select.css">
+    <link rel="stylesheet" href="stylesheets/magnific-popup.css">
+    <link rel="stylesheet" href="stylesheets/slick.css">
+    <link rel="stylesheet" href="stylesheetss/arafat-font.css">
+    <link rel="stylesheet" href="stylesheets/animate.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo.png" class="logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-content">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Tipster</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="become-tipster.html">Become Tipster</a></li>
+                                        <li><a class="nav-link" href="find-tipsters.html">Find Tipster</a></li>
+                                        <li><a class="nav-link" href="tipster-profile.html">Tipster Profile</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">All Tips</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" aria-current="page" href="all-tips.html">All Tips</a>
+                                        </li>
+                                        <li><a class="nav-link" aria-current="page" href="match-betting.html">Match
+                                                Betting</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Support</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="support-help.html">Support Help</a></li>
+                                        <!--<li><a class="nav-link" href="buyer-faq.html">Buyers Faq</a></li>
+                                        <li><a class="nav-link" href="tipster-faq.html">Tipster Faq</a></li>
+                                        <li><a class="nav-link" href="faq-details.html">Faq Details</a></li>-->
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="about.html">About Us</a></li>
+                                        <li><a class="nav-link" href="affiliate.html">Affiliate</a></li>
+                                        <li><a class="nav-link" href="post-tips.html">Post Tips</a></li>
+                                        <li><a class="nav-link" href="user-dashboard.html">User Dashboard</a></li>
+                                        <li><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a class="nav-link" href="terms-conditions.html">Terms Conditions</a></li>
+                                        <li><a class="nav-link" href="create-tipster-profile.html">Create Profile</a>
+                                        </li>
+                                        <!--<li><a class="nav-link" href="error.html">Error</a></li>-->
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="right-area header-action d-flex align-items-center max-un">
+                                <div class="search-icon">
+                                    <a href="javascript:void(0)"><img src="assets/images/search.png"
+                                            alt="icon"></a>
+                                </div>
+                                <button type="button" class="login" data-bs-toggle="modal" data-bs-target="#loginMod">
+                                    Login
+                                </button>
+                                <button type="button" class="cmn-btn reg" data-bs-toggle="modal"
+                                    data-bs-target="#loginMod">
+                                    Join
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- Login Registration start -->
+    <div class="log-reg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade " id="loginMod">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="loginArea" role="tabpanel"
+                                        aria-labelledby="loginArea-tab">
+                                        <div class="login-content">
+                                            <div class="modal-header justify-content-center">
+                                                <h4 class="title">Login to Pitch</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-area">
+                                                    <form action="#">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="single-input">
+                                                                    <img src="assets/images/message-icon.png"
+                                                                        alt="image">
+                                                                    <input type="text" placeholder="Enter Your Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="single-input">
+                                                                    <img src="assets/images/lock.png" alt="image">
+                                                                    <input type="password" placeholder="Password">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    class="forget d-flex align-items-center justify-content-between">
+                                                                    <label class="checkbox-wrapper">Remember me
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                    <a href="javascript:void(0)">Forgot Password?</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btn-area">
+                                                                <a href="javascript:void(0)" class="cmn-btn">LOGIN</a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <span class="or">or</span>
+                                                    <div class="reg-with">
+                                                        <a href="javascript:void(0)" class="cmn-btn">login with
+                                                            facebook</a>
+                                                        <a href="javascript:void(0)" class="cmn-btn second">Sign in with
+                                                            Google</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="regArea" role="tabpanel"
+                                        aria-labelledby="regArea-tab">
+                                        <div class="reg-content regMod">
+                                            <div class="modal-header justify-content-center">
+                                                <div class="top-area text-center">
+                                                    <h4 class="title">Welcome To PitchTips</h4>
+                                                    <p>Hundreds of Verified Tipsters. Winning Tips. Unbeatable Value.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-area">
+                                                    <form action="#">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="single-input">
+                                                                    <img src="assets/images/message-icon.png"
+                                                                        alt="image">
+                                                                    <input type="text" placeholder="Enter Your Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="btn-area">
+                                                                <a href="javascript:void(0)"
+                                                                    class="cmn-btn">Continue</a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <div class="joining text-center">
+                                                        <p>By joining I agree to receive emails from PitchTips</p>
+                                                    </div>
+                                                    <span class="or">or</span>
+                                                    <div class="reg-with">
+                                                        <a href="javascript:void(0)" class="cmn-btn">login with
+                                                            facebook</a>
+                                                        <a href="javascript:void(0)" class="cmn-btn second">Sign in with
+                                                            Google</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="nav log-reg-btn justify-content-center">
+                                    <li class="bottom-area" role="presentation">
+                                        <button class="nav-link active" id="loginArea-tab" data-bs-toggle="tab"
+                                            data-bs-target="#loginArea" type="button" role="tab"
+                                            aria-controls="loginArea" aria-selected="true">
+                                            Already a Member? <span>Login</span>
+                                        </button>
+                                    </li>
+                                    <li class="bottom-area" role="presentation">
+                                        <button class="nav-link" id="regArea-tab" data-bs-toggle="tab"
+                                            data-bs-target="#regArea" type="button" role="tab" aria-controls="regArea"
+                                            aria-selected="false">
+
+                                            Not a member yet? <span>Register now</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Registration end -->
+
+    <!-- banner-section start -->
+    <section class="banner-section inner-banner about">
+        <div class="overlay">
+            <div class="shape-area">
+                <img src="assets/images/banner-obj-1.png" class="obj-1" alt="image">
+                <img src="assets/images/banner-obj-2.png" class="obj-2" alt="image">
+                <img src="assets/images/banner-obj-3.png" class="obj-3" alt="image">
+            </div>
+            <div class="banner-content d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-lg-7 col-md-10">
+                            <div class="main-content">
+                                <h1>About Us</h1>
+                                <div class="breadcrumb-area">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb d-flex align-items-center">
+                                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- About Us In start -->
+    <section class="about-us">
+        <div class="overlay pt-120 pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 text-center">
+                        <img src="assets/images/about-left.png" alt="PitchTips platform overview">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-area">
+                            <h5 class="sub-title">About PitchTips</h5>
+                            <h2 class="title">Connecting Tipsters & Bettors Worldwide</h2>
+                            <p>PitchTips is a leading platform where sports tipsters share expert betting tips. Join today to get unlimited access to a network of verified tipsters with proven success records from all around the globe.</p>
+                            <p class="para-area">Say goodbye to unreliable tips found in forums or trying to verify the credibility of individual tipsters. With PitchTips, you can trust the insights of top-rated professionals who have a history of success.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us In end -->
+
+    <!-- What We Do In start -->
+    <section class="what-we-do">
+        <div class="overlay pt-120 pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-5 text-center">
+                        <img src="assets/images/what-we-do.png" alt="PitchTips Services Overview">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-area">
+                            <h5 class="sub-title">Helping You Maximize Betting Profits</h5>
+                            <h2 class="title">Our Services: What We Do For You</h2>
+                            <p>PitchTips makes it easy for you to access top-tier betting tips from expert tipsters around the world. We also track the performance of every tipster, providing you with clear insights into their historical success.</p>
+                            <p class="para-area">Our platform ensures transparency: once a match is completed, a tipster’s performance is locked, so no one can alter their track record. This gives you an accurate, unchangeable history to help you choose the right tipster for your next bet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- What We Do In end -->
+
+    <!-- Counter In start -->
+    <section class="counter-section about">
+        <div class="overlay pt-120 pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">Numbers Speak Louder Than Words</h5>
+                            <h2 class="title">Our Stats Prove Our Success</h2>
+                            <p>PitchTips connects you with the most successful tipsters, offering you the insights needed to improve your betting outcomes!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cus-mar">
+                    <div class="col-xl-3 col-6">
+                        <div class="single-area d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="assets/images/counter-icon-1.png" alt="Total Profit">
+                            </div>
+                            <div class="text-area">
+                                <h4 class="counter">17,611</h4>
+                                <p>Total Profit Earned</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-area d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="assets/images/counter-icon-2.png" alt="Average Hit Rate">
+                            </div>
+                            <div class="text-area">
+                                <h4><span class="counter">88</span><span>%</span></h4>
+                                <p>Average Hit Rate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-area d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="assets/images/counter-icon-3.png" alt="Average ROI">
+                            </div>
+                            <div class="text-area">
+                                <h4><span class="counter">66</span><span>%</span></h4>
+                                <p>Average Return on Investment (ROI)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-area d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="assets/images/counter-icon-4.png" alt="Total Tipsters">
+                            </div>
+                            <div class="text-area">
+                                <h4 class="counter">10,500</h4>
+                                <p>Total Tipsters Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Counter In end -->
+
+    <!-- Why PitchTips is better In start -->
+    <section class="why-bitips-better about">
+        <div class="overlay pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">Why Choose PitchTips?</h5>
+                            <h2 class="title">Here's What PitchTips Offers You</h2>
+                            <p>PitchTips is the platform where the world's top sports tipsters provide in-depth research on upcoming matches, sending you their most reliable betting tips directly to your inbox.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="single-area d-flex align-items-start">
+                            <div class="img-area">
+                                <img src="assets/images/why-bitips-better-1.png" alt="Individualized Stacking Tips">
+                            </div>
+                            <div class="text-area">
+                                <h4>Personalized Stacking Tips</h4>
+                                <p>Get precise guidance on how much to wager on each bet, tailored specifically to your betting preferences and goals.</p>
+                            </div>
+                        </div>
+                        <div class="single-area d-flex align-items-start">
+                            <div class="img-area">
+                                <img src="assets/images/why-bitips-better-2.png" alt="Rewards for Engagement">
+                            </div>
+                            <div class="text-area">
+                                <h4>Exciting Rewards</h4>
+                                <p>Start by watching a video on our main screen to unlock rewards. Enjoy a range of free expert predictions to boost your betting strategy!</p>
+                            </div>
+                        </div>
+                        <div class="single-area d-flex align-items-start">
+                            <div class="img-area">
+                                <img src="assets/images/why-bitips-better-3.png" alt="Combination Betting Tips">
+                            </div>
+                            <div class="text-area">
+                                <h4>Combination Betting Tips</h4>
+                                <p>Our experts provide you with the best combination tips, offering high-value bets in one seamless package.</p>
+                            </div>
+                        </div>
+                        <div class="single-area d-flex align-items-start">
+                            <div class="img-area">
+                                <img src="assets/images/why-bitips-better-4.png" alt="Pre-match and Live Betting Tips">
+                            </div>
+                            <div class="text-area">
+                                <h4>Pre-match & Live Betting Insights</h4>
+                                <p>Our expert tipsters are not just seasoned in pre-match betting – they excel in live betting, giving you real-time tips during events.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why PitchTips is better In end -->
+
+    <!-- Join Us In start -->
+    <section class="join-us">
+        <div class="overlay pt-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 wow fadeInUp">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">PitchTips is Ready for You</h5>
+                            <h2 class="title">Your Winning Journey Starts Here</h2>
+                            <p>At PitchTips, we prioritize sustainable, long-term betting success. Our mission is to help you achieve consistent wins, and we’ve fine-tuned our strategies and services to ensure long-term profitability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="main-content text-center">
+                            <div class="section-text">
+                                <h4 class="title">Join the PitchTips Community Today</h4>
+                            </div>
+                            <div class="btn-area d-flex align-items-center justify-content-center">
+                                <a href="find-tipsters.html" class="cmn-btn">Select Your Expert Tipster</a>
+                                <a href="become-tipster.html" class="cmn-btn second">Become a Tipster</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Join Us In end -->
+
+    <!-- Testimonials In start -->
+    <section class="testimonials">
+        <div class="overlay pt-120">
+            <div class="container">
+                <div class="row wow fadeInUp d-flex justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">They are talking about us</h5>
+                            <h2 class="title">Don't Take Our Word For It.</h2>
+                            <p>See what my customers have to say.Find out what our clients are saying below</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="testimonials-carousel">
+                        <div class="single">
+                            <div class="single-slide">
+                                <p class="xlr">“Reliable & always motivated to share your insights and knowledge. It's
+                                    been going only up since I met“</p>
+                                <div class="profile-area d-flex align-items-center">
+                                    <div class="img-area">
+                                        <img src="assets/images/testimonials-1.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h6>Miriam Cox</h6>
+                                        <p class="mdr">Vietnam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single">
+                            <div class="single-slide">
+                                <p class="xlr">"PitchTips has completely changed the way I approach betting. The tips are well-researched and easy to follow, and the results speak for themselves. I’ve been able to make smarter bets and actually enjoy the process without feeling overwhelmed. The sense of community here is amazing too—it doesn’t feel like I’m doing it alone. Highly recommended!"</p>
+                                <div class="profile-area d-flex align-items-center">
+                                    <div class="img-area">
+                                        <img src="assets/images/testimonials-2.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h6>James R., Tampa, FL</h6>
+                                        <p class="mdr">Australia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single">
+                            <div class="single-slide">
+                                <p class="xlr">"I was skeptical about joining a tipster service, but PitchTips exceeded all my expectations. The accuracy of their tips is incredible, and I’ve seen a noticeable improvement in my wins. I also appreciate how transparent they are about their methods—no gimmicks, just solid advice from pros who clearly know their stuff. If you’re serious about betting, this is the service for you."</p>
+                                <div class="profile-area d-flex align-items-center">
+                                    <div class="img-area">
+                                        <img src="assets/images/testimonials-1.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h6>Lena S., Miami, FL</h6>
+                                        <p class="mdr">Vietnam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single">
+                            <div class="single-slide">
+                                <p class="xlr">“Reliable & always motivated to share your insights and knowledge. It's
+                                    been going only up since I met“</p>
+                                <div class="profile-area d-flex align-items-center">
+                                    <div class="img-area">
+                                        <img src="assets/images/testimonials-2.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h6>Omar Holt</h6>
+                                        <p class="mdr">Australia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials In end -->
+
+<!-- Footer Area Start -->
+<footer class="footer-section">
+    <div class="container pt-120">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="newsletter">
+                    <div class="section-header text-center">
+                        <h3 class="title">Don't miss out on Fantastic News</h3>
+                        <p>Subscribe to our newsletter and be the first to receive news</p>
+                    </div>
+                    <form action="#">
+                        <div class="form-group d-flex align-items-center">
+                            <input type="text" placeholder="Enter Your Email">
+                            <button><img src="assets/images/send-icon.png" alt="icon"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area pt-120">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="menu-item">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </a>
+                        <ul class="footer-link">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="support-help.html">Support</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="terms-conditions.html">Terms of Services</a></li>
+                            <li><a href="privacy-policy.html">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">
+                        <div class="copy-area">
+                            <p> Copyright © <a href="index.html">Pitch</a> <!--| Designed by
+                                <a href="https://themeforest.net/user/pixelaxis" class="auth">Pixelaxis</a>-->
+                            </p>
+                        </div>
+                        <div class="social-link d-flex align-items-center">
+                            <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Area End -->
+
+<!--==================================================================-->
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery-ui.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/fontawesome.js"></script>
+<script src="scripts/slick.js"></script>
+<script src="scripts/jquery.nice-select.min.js"></script>
+<script src="scripts/counter.js"></script>
+<script src="scripts/waypoint.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/plugin.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+
+</html>
